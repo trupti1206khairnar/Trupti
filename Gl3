@@ -1,0 +1,67 @@
+Gitlab
+
+-Go to Gitlab.com and click on "sign up" or "Register"
+Gitlab
+-Create a new project 
+
+- Click on "Login"
+- Click on the "+" icon in the top-right comer and select 'New Project".
+-Enter a project name, description and set visibility Public".
+
+-Click create Project:
+
+-Go to github account click on "code" copy HTTP URL and open terminal.
+-open a terminal from folder then type git clone "URL"
+
+- Add username
+- Add Password using tokens.
+
+Create a Token
+
+gitlab 
+Click on Avatar - Edit Profile - Access toker name
+Name the token - select all the scopes 
+create token (It also copy on notepad for next use).
+
+Copy token - paste it as a password - Enter
+
+Go to Project folder and open terminal & type
+
+touch index.html (open file and then add content or code and save).
+
+git status
+git add.
+git status
+git commit -m "vi"
+
+folder index.html open in Firefox
+git push origin main / master
+
+Then add username and password (token) Refresh Project
+
+git status (git lab)
+git branch new
+git checkout new
+touch style.css (add code and save)
+git add.
+git commit -m "css"
+git push origin new
+
+Add username & password 
+
+then new -new
+check in project (new)
+
+git checkout main
+
+In gitlab 
+create merge request 
+
+add a description & create it.
+
+After add style in main then used command
+
+git pull origin main
+
+Add username
+Add Password
