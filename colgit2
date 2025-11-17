@@ -1,0 +1,65 @@
+Collaboration GitHub
+
+create a folder on Desktop 
+open terminal 
+
+git clone 
+open github account 
+
+Home
+new Repository name 
+Public 
+Add a Real me-click
+create 
+Click on code 
+HTTPS path copy 
+Past on Terminal 
+
+git clone HTTPS... 
+Enter.
+
+open a terminal from folder 
+git status 
+touch mcs.txt 
+git status 
+git add mcs.txt
+git status 
+git commit -m "vs" 
+
+git branch fe
+git checkout fe
+git status 
+
+touch fe fefile.txt 
+git add fefile.txt-
+git commit -m "Forbrranch" 
+git push origin fe 
+
+username 
+password (github token) 
+
+create a token
+
+- GitHub - setting - Developer setting 
+personal access tokens - Token (Classic) 
+create new token - Generate new token (Classic)
+Note (demo)-tick - Generate token
+copy link/path (ghp-HFI....)
+
+Paste on Terminalt
+Enter
+
+git status
+
+github 
+compare and pull request - click 
+Add title 
+Add description 
+code 
+
+create pull request 
+Terminal → 
+git status 
+git checkout master
+git pull origin master
+
