@@ -1,0 +1,129 @@
+Jenkins
+
+create a folder/directory
+
+other location
+
+ubhantu - var - www- html
+
+open terminal
+
+root user mkdir pract 5 
+
+password
+
+open new Terminal
+
+ngrok http 8080
+
+Click on forwarding link (First link) open(right click)
+
+then visit site
+
+Go to the Jenkins
+
+Click on 'New Item'
+
+Enter name 'demo'
+
+Click on freestyle project
+
+Ok
+
+Then in 'general' click on source code management
+
+Choose 'Git'
+
+Put Repo. URL (Your git proj.)
+
+Branch specifier check 'main' or 'master
+
+Build Trigger
+
+Github hook trigger for GIT scam poding
+
+Apply then save.
+
+Go to Github account
+
+select option 'settings"
+
+then select 'webhooks
+
+Add webhook
+
+Password (put github password)
+
+Payload URL put (Forwarding URL copy) 
+
+https: app/github-webhook/
+
+content 
+
+JSON select application
+
+Enable SSL verification.
+
+'send me Everything select
+
+Add Webhook
+
+Refresh page and check green tick
+
+Then Jenkins"
+
+Build now (green)
+
+Workspace
+
+code (Edit code: index.html) commit changes.
+
+(Its (I) 
+
+add git nautilus
+
+NOW CD
+
+other location
+
+Ubuntus - var - www - html/y 
+
+Open terminal from there
+
+**Add command 'sudo mkdir new'
+
+Password (acs@22)
+
+Jenkins
+
+configure
+
+Add build step -
+
+Execute shell
+
+Write command "cp-r* /var/www/html/new
+
+Apply 4 save
+
+Build NOW 
+
+Click
+
+Open terminal from folder "new"
+
+Add command "sudo chown R jenkins: Jenkins Var/www/html/new"
+ 
+Password (acs@22)
+
+Build new click
+
+go to the browser
+
+Type 0.0.0.0/new/index.html 
+
+Enter 
+
+Then do steps of pull and push code...
+
+
