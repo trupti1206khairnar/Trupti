@@ -1,0 +1,103 @@
+Jenkins
+create CI|CD pipeline using Jenkinson github
+
+Create Folder - Files - Other location 
+ubantu -var -WWW
+html (right click) 
+
+open in terminal 
+
+command Sudo mkdir folder-name (demopro)
+
+
+1] open new terminal 1-command
+
+ngrok http 8080
+
+2] Forwarding 
+
+open link visit site
+
+Sign in to Jenkins
+
+3] Jenkins 
+
+New items
+
+item name 
+
+Click-freestyle project 
+
+ok (button)
+
+4] login Github
+
+5] In General - source code management 
+
+click ait option.
+
+- Repository Url - (In github (code https)
+
+- check branch - master| main
+
+Triggers 
+
+GitHub hook triggers for G11Scm 
+
+polling
+
+-Apply-save.
+
+6] IN Github
+
+open settings 
+
+Webhook 
+
+Add Webhook
+
+In payload URL
+
+Forwarding link (paste)
+
+Forwarding link | github - Webhook|
+
+- Content type -
+
+application | jason
+
+-Select option
+
+send me everythings
+
+Then Build Now
+
+7] continuous Deployment =
+
+In Jenkins
+
+-Configure
+
+ Execute shell
+
+Bulid step  
+
+Add Build step
+
+execute shell
+
+-command - cp  -r * /var/www/html/project name (denopro).
+
+-Apply and save.
+
+-Build Now
+
+After Build error come 
+
+open new terminal 
+command
+
+sudo chown -R Jenkins /var/www/html / project name (denopro)
+
+-Go to browser - 0.0.0.0/projectname | filenc me.
+
