@@ -1,0 +1,46 @@
+Maven 
+
+Create a folder on desktop 
+
+Open in terminal from folder
+
+Write 
+mvn archetype:generate -DgroupId=com.example -DartiFactId=MyApp -DinteractiveMode=False
+
+cd MyApp (Open Folder)
+
+tree 
+mvn compile
+
+Open POM
+
+Next in url 
+
+ <properties>
+  <maven.compiler.source>8</maven.compiler.source>
+  <maven.compiler.target>8</maven.compiler.target>
+  </properties>
+
+
+next in </dependencies>
+
+<build>
+   <plugins>
+    <plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>exec-maven-plugin</artifactId>
+    <version>3.0.0</version>
+    <executions>
+    <execution>
+    <goals>
+     <goal>java</goal>
+   </goals>
+   </execution>
+   </executions>
+   <configuration>
+   <mainClass>com.example.App</mainClass>
+   </configuration>
+   </plugin>
+  </plugins>
+  </build>
+
