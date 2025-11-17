@@ -1,0 +1,44 @@
+Docker
+
+create a folder
+
+mkdir (my-web-server)
+
+cd my web.server
+
+open the terminal.
+touch index.html 
+Enter
+
+touch Dockerfile 
+Enter
+
+Open index file
+copy small html code
+Save
+
+open Docker file and add
+FROM httpd: 2.4
+
+COPY index.html /usr/local/apache2/htdocs/
+
+open terminal from folder
+sudo docker build -t my-web-server.
+
+
+Password
+
+sudo docker run -p 8082:80 -d my-web-server
+
+Enter
+
+Generate hash code
+
+open browser - http://localhost:8092
+
+Type: localhost: 8082:80
+
+
+Where -p port
+
+      -d: detached mode
