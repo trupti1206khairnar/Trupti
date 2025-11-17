@@ -1,0 +1,16 @@
+mkdir devops
+cd devops
+
+git init
+
+touch index.html
+git status
+(add code index.html)
+
+git add index.html
+git status
+git commit -m "v1" (change in index.html)
+git diff
+git add.
+git commit -m "v2"
+git log 
