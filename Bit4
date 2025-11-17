@@ -1,0 +1,59 @@
+Bitbucket
+
+open account
+create repository
+create a folder
+open terminal from folder
+
+open bitbucket repo
+copy the clone
+Past on terminal
+open terminal from new folder
+
+touch index.html
+git status
+Add code on index.html
+git add index.html
+git status
+git commit -m "ci"
+git push origin main
+open bitbucket
+
+setting (Right side)
+Personal bitbucket setting. 
+(left side) App Password
+
+GO TO API Tokens -verify
+Click on create API token with scopes
+
+Name - Next - Tick bitbucket 
+Next - All Tickes 
+select The scopes-Read/delet/write
+next-creat 
+past on terminal- ENTER
+
+git branch new
+git checkout new
+touch style.css
+git status 
+(Add code)
+
+git add style.css
+git status
+git commit -m "cz"
+git push origin new
+
+Password (Previous token Past)
+
+(go to bitbucket)
+
+Pull Request click (Left side)
+
+Click on create pull request (right side top).
+
+Check the source branch (new) & 
+Destination branch (main)
+
+create pull request click
+click on merge (Right side)
+
